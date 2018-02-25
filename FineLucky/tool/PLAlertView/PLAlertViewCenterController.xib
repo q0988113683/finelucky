@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PLAlertViewCenterController" customModule="FineLucky" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyn-TP-DqO">
+                    <rect key="frame" x="125" y="0.0" width="125" height="120"/>
+                    <state key="normal" title="建立活動"/>
+                    <connections>
+                        <action selector="createClick" destination="-1" eventType="touchUpInside" id="lL8-Fr-Xit"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kr-3O-yWk">
+                    <rect key="frame" x="0.0" y="0.0" width="125" height="120"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="參加私人活動"/>
+                    <connections>
+                        <action selector="joinClick" destination="-1" eventType="touchUpInside" id="Xbk-jH-CBC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lyn-TP-DqO" secondAttribute="trailing" id="2K0-X8-CCY"/>
+                <constraint firstAttribute="bottom" secondItem="2kr-3O-yWk" secondAttribute="bottom" id="7GS-Yo-0FG"/>
+                <constraint firstItem="2kr-3O-yWk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="QAf-Wh-kYR"/>
+                <constraint firstItem="lyn-TP-DqO" firstAttribute="bottom" secondItem="2kr-3O-yWk" secondAttribute="bottom" id="QBC-YN-U5H"/>
+                <constraint firstItem="lyn-TP-DqO" firstAttribute="top" secondItem="2kr-3O-yWk" secondAttribute="top" id="QsF-Dr-Czg"/>
+                <constraint firstItem="lyn-TP-DqO" firstAttribute="leading" secondItem="2kr-3O-yWk" secondAttribute="trailing" id="ZhT-Ke-Mgf"/>
+                <constraint firstItem="2kr-3O-yWk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="iYd-S4-agp"/>
+                <constraint firstItem="2kr-3O-yWk" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mlz-oJ-57s"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

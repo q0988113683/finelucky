@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E57048BB20427B5C00422C08 /* ShareMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57048BA20427B5C00422C08 /* ShareMethod.swift */; };
+		E57048BD2042802600422C08 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57048BC2042802600422C08 /* MainTabViewController.swift */; };
+		E57048C52042ABA700422C08 /* tabbar_camera_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E57048C22042ABA700422C08 /* tabbar_camera_normal.png */; };
+		E57048C62042ABA700422C08 /* tabbar_camera_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E57048C32042ABA700422C08 /* tabbar_camera_normal@2x.png */; };
+		E57048C72042ABA700422C08 /* tabbar_camera_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E57048C42042ABA700422C08 /* tabbar_camera_normal@3x.png */; };
+		E57048CC2042AC2400422C08 /* CustomAlertViewTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57048C92042AC2400422C08 /* CustomAlertViewTransitioner.swift */; };
+		E57048CD2042AC2400422C08 /* PLAlertViewCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57048CA2042AC2400422C08 /* PLAlertViewCenterController.swift */; };
+		E57048CE2042AC2400422C08 /* PLAlertViewCenterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57048CB2042AC2400422C08 /* PLAlertViewCenterController.xib */; };
+		E57048D02042B02200422C08 /* CreateActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57048CF2042B02200422C08 /* CreateActivityViewController.swift */; };
+		E57048D42042B23C00422C08 /* TextFieldWithTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57048D22042B23C00422C08 /* TextFieldWithTitleTableViewCell.swift */; };
+		E57048D52042B23C00422C08 /* TextFieldWithTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57048D32042B23C00422C08 /* TextFieldWithTitleTableViewCell.xib */; };
+		E57048D82042B2E300422C08 /* DateTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57048D62042B2E300422C08 /* DateTimeTableViewCell.swift */; };
+		E57048D92042B2E300422C08 /* DateTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57048D72042B2E300422C08 /* DateTimeTableViewCell.xib */; };
+		E5848EFD2041A79F007CF83D /* GarlandCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848EF72041A79F007CF83D /* GarlandCollection.swift */; };
+		E5848EFE2041A79F007CF83D /* GarlandConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848EF82041A79F007CF83D /* GarlandConfig.swift */; };
+		E5848EFF2041A79F007CF83D /* GarlandPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848EF92041A79F007CF83D /* GarlandPresentAnimationController.swift */; };
+		E5848F002041A79F007CF83D /* GarlandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848EFB2041A79F007CF83D /* GarlandViewController.swift */; };
+		E5848F012041A79F007CF83D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5848EFC2041A79F007CF83D /* Info.plist */; };
+		E5848F042041A937007CF83D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848F032041A937007CF83D /* UIView.swift */; };
+		E5848F132041A961007CF83D /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848F072041A961007CF83D /* CollectionCell.swift */; };
+		E5848F142041A961007CF83D /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5848F082041A961007CF83D /* CollectionCell.xib */; };
+		E5848F152041A961007CF83D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848F092041A961007CF83D /* HeaderView.swift */; };
+		E5848F162041A961007CF83D /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5848F0A2041A961007CF83D /* HeaderView.xib */; };
+		E5848F172041A961007CF83D /* MainGarlandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848F0B2041A961007CF83D /* MainGarlandViewController.swift */; };
+		E5848F182041A961007CF83D /* CardCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848F0D2041A961007CF83D /* CardCollectionCell.swift */; };
+		E5848F192041A961007CF83D /* CardCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5848F0E2041A961007CF83D /* CardCollectionCell.xib */; };
+		E5848F1A2041A961007CF83D /* UserCardDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848F0F2041A961007CF83D /* UserCardDismissAnimationController.swift */; };
+		E5848F1B2041A961007CF83D /* UserCardPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848F102041A961007CF83D /* UserCardPresentAnimationController.swift */; };
+		E5848F1C2041A961007CF83D /* UserCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848F112041A961007CF83D /* UserCardViewController.swift */; };
+		E5848F1D2041A961007CF83D /* UserCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5848F122041A961007CF83D /* UserCardViewController.xib */; };
+		E598F32120408CE000FE27AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598F32020408CE000FE27AD /* AppDelegate.swift */; };
+		E598F32320408CE000FE27AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598F32220408CE000FE27AD /* ViewController.swift */; };
+		E598F32620408CE000FE27AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E598F32420408CE000FE27AD /* Main.storyboard */; };
+		E598F32820408CE000FE27AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E598F32720408CE000FE27AD /* Assets.xcassets */; };
+		E598F32B20408CE000FE27AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E598F32920408CE000FE27AD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E57048BA20427B5C00422C08 /* ShareMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareMethod.swift; sourceTree = "<group>"; };
+		E57048BC2042802600422C08 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		E57048C22042ABA700422C08 /* tabbar_camera_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_camera_normal.png; sourceTree = "<group>"; };
+		E57048C32042ABA700422C08 /* tabbar_camera_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_camera_normal@2x.png"; sourceTree = "<group>"; };
+		E57048C42042ABA700422C08 /* tabbar_camera_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_camera_normal@3x.png"; sourceTree = "<group>"; };
+		E57048C92042AC2400422C08 /* CustomAlertViewTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewTransitioner.swift; sourceTree = "<group>"; };
+		E57048CA2042AC2400422C08 /* PLAlertViewCenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLAlertViewCenterController.swift; sourceTree = "<group>"; };
+		E57048CB2042AC2400422C08 /* PLAlertViewCenterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLAlertViewCenterController.xib; sourceTree = "<group>"; };
+		E57048CF2042B02200422C08 /* CreateActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateActivityViewController.swift; sourceTree = "<group>"; };
+		E57048D22042B23C00422C08 /* TextFieldWithTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithTitleTableViewCell.swift; sourceTree = "<group>"; };
+		E57048D32042B23C00422C08 /* TextFieldWithTitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldWithTitleTableViewCell.xib; sourceTree = "<group>"; };
+		E57048D62042B2E300422C08 /* DateTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeTableViewCell.swift; sourceTree = "<group>"; };
+		E57048D72042B2E300422C08 /* DateTimeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateTimeTableViewCell.xib; sourceTree = "<group>"; };
+		E5848EF72041A79F007CF83D /* GarlandCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarlandCollection.swift; sourceTree = "<group>"; };
+		E5848EF82041A79F007CF83D /* GarlandConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarlandConfig.swift; sourceTree = "<group>"; };
+		E5848EF92041A79F007CF83D /* GarlandPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarlandPresentAnimationController.swift; sourceTree = "<group>"; };
+		E5848EFA2041A79F007CF83D /* GarlandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarlandView.h; sourceTree = "<group>"; };
+		E5848EFB2041A79F007CF83D /* GarlandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarlandViewController.swift; sourceTree = "<group>"; };
+		E5848EFC2041A79F007CF83D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5848F032041A937007CF83D /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		E5848F072041A961007CF83D /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		E5848F082041A961007CF83D /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
+		E5848F092041A961007CF83D /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E5848F0A2041A961007CF83D /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		E5848F0B2041A961007CF83D /* MainGarlandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGarlandViewController.swift; sourceTree = "<group>"; };
+		E5848F0D2041A961007CF83D /* CardCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionCell.swift; sourceTree = "<group>"; };
+		E5848F0E2041A961007CF83D /* CardCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCollectionCell.xib; sourceTree = "<group>"; };
+		E5848F0F2041A961007CF83D /* UserCardDismissAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCardDismissAnimationController.swift; sourceTree = "<group>"; };
+		E5848F102041A961007CF83D /* UserCardPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCardPresentAnimationController.swift; sourceTree = "<group>"; };
+		E5848F112041A961007CF83D /* UserCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCardViewController.swift; sourceTree = "<group>"; };
+		E5848F122041A961007CF83D /* UserCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCardViewController.xib; sourceTree = "<group>"; };
+		E598F31D20408CE000FE27AD /* FineLucky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FineLucky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E598F32020408CE000FE27AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E598F32220408CE000FE27AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E598F32520408CE000FE27AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E598F32720408CE000FE27AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E598F32A20408CE000FE27AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E598F32C20408CE000FE27AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E598F31A20408CE000FE27AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E57048C02042AA0A00422C08 /* tab2 */ = {
+			isa = PBXGroup;
+			children = (
+				E57048D12042B20900422C08 /* tableViewCell */,
+				E57048CF2042B02200422C08 /* CreateActivityViewController.swift */,
+			);
+			path = tab2;
+			sourceTree = "<group>";
+		};
+		E57048C12042ABA700422C08 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				E57048C22042ABA700422C08 /* tabbar_camera_normal.png */,
+				E57048C32042ABA700422C08 /* tabbar_camera_normal@2x.png */,
+				E57048C42042ABA700422C08 /* tabbar_camera_normal@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		E57048C82042AC2400422C08 /* PLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				E57048C92042AC2400422C08 /* CustomAlertViewTransitioner.swift */,
+				E57048CA2042AC2400422C08 /* PLAlertViewCenterController.swift */,
+				E57048CB2042AC2400422C08 /* PLAlertViewCenterController.xib */,
+			);
+			path = PLAlertView;
+			sourceTree = "<group>";
+		};
+		E57048D12042B20900422C08 /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E57048D22042B23C00422C08 /* TextFieldWithTitleTableViewCell.swift */,
+				E57048D32042B23C00422C08 /* TextFieldWithTitleTableViewCell.xib */,
+				E57048D62042B2E300422C08 /* DateTimeTableViewCell.swift */,
+				E57048D72042B2E300422C08 /* DateTimeTableViewCell.xib */,
+			);
+			path = tableViewCell;
+			sourceTree = "<group>";
+		};
+		E5848EF62041A79E007CF83D /* garland-view */ = {
+			isa = PBXGroup;
+			children = (
+				E5848EF72041A79F007CF83D /* GarlandCollection.swift */,
+				E5848EF82041A79F007CF83D /* GarlandConfig.swift */,
+				E5848EF92041A79F007CF83D /* GarlandPresentAnimationController.swift */,
+				E5848EFA2041A79F007CF83D /* GarlandView.h */,
+				E5848EFB2041A79F007CF83D /* GarlandViewController.swift */,
+				E5848EFC2041A79F007CF83D /* Info.plist */,
+			);
+			path = "garland-view";
+			sourceTree = "<group>";
+		};
+		E5848F022041A937007CF83D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E5848F032041A937007CF83D /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E5848F052041A961007CF83D /* tab1 */ = {
+			isa = PBXGroup;
+			children = (
+				E5848F062041A961007CF83D /* Collections */,
+				E5848F0C2041A961007CF83D /* UserCard */,
+			);
+			path = tab1;
+			sourceTree = "<group>";
+		};
+		E5848F062041A961007CF83D /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				E5848F072041A961007CF83D /* CollectionCell.swift */,
+				E5848F082041A961007CF83D /* CollectionCell.xib */,
+				E5848F092041A961007CF83D /* HeaderView.swift */,
+				E5848F0A2041A961007CF83D /* HeaderView.xib */,
+				E5848F0B2041A961007CF83D /* MainGarlandViewController.swift */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		E5848F0C2041A961007CF83D /* UserCard */ = {
+			isa = PBXGroup;
+			children = (
+				E5848F0D2041A961007CF83D /* CardCollectionCell.swift */,
+				E5848F0E2041A961007CF83D /* CardCollectionCell.xib */,
+				E5848F0F2041A961007CF83D /* UserCardDismissAnimationController.swift */,
+				E5848F102041A961007CF83D /* UserCardPresentAnimationController.swift */,
+				E5848F112041A961007CF83D /* UserCardViewController.swift */,
+				E5848F122041A961007CF83D /* UserCardViewController.xib */,
+			);
+			path = UserCard;
+			sourceTree = "<group>";
+		};
+		E5848F1E2041A9EB007CF83D /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				E57048C82042AC2400422C08 /* PLAlertView */,
+				E57048C12042ABA700422C08 /* image */,
+				E57048BA20427B5C00422C08 /* ShareMethod.swift */,
+				E5848EF62041A79E007CF83D /* garland-view */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		E598F31420408CE000FE27AD = {
+			isa = PBXGroup;
+			children = (
+				E598F31F20408CE000FE27AD /* FineLucky */,
+				E598F31E20408CE000FE27AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E598F31E20408CE000FE27AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E598F31D20408CE000FE27AD /* FineLucky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E598F31F20408CE000FE27AD /* FineLucky */ = {
+			isa = PBXGroup;
+			children = (
+				E57048C02042AA0A00422C08 /* tab2 */,
+				E5848F1E2041A9EB007CF83D /* tool */,
+				E5848F052041A961007CF83D /* tab1 */,
+				E5848F022041A937007CF83D /* Extensions */,
+				E598F32020408CE000FE27AD /* AppDelegate.swift */,
+				E598F32220408CE000FE27AD /* ViewController.swift */,
+				E57048BC2042802600422C08 /* MainTabViewController.swift */,
+				E598F32420408CE000FE27AD /* Main.storyboard */,
+				E598F32920408CE000FE27AD /* LaunchScreen.storyboard */,
+				E598F32C20408CE000FE27AD /* Info.plist */,
+				E598F32720408CE000FE27AD /* Assets.xcassets */,
+			);
+			path = FineLucky;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E598F31C20408CE000FE27AD /* FineLucky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E598F32F20408CE000FE27AD /* Build configuration list for PBXNativeTarget "FineLucky" */;
+			buildPhases = (
+				E598F31920408CE000FE27AD /* Sources */,
+				E598F31A20408CE000FE27AD /* Frameworks */,
+				E598F31B20408CE000FE27AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FineLucky;
+			productName = FineLucky;
+			productReference = E598F31D20408CE000FE27AD /* FineLucky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E598F31520408CE000FE27AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Yu-cheng Jhuo";
+				TargetAttributes = {
+					E598F31C20408CE000FE27AD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E598F31820408CE000FE27AD /* Build configuration list for PBXProject "FineLucky" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E598F31420408CE000FE27AD;
+			productRefGroup = E598F31E20408CE000FE27AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E598F31C20408CE000FE27AD /* FineLucky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E598F31B20408CE000FE27AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5848F142041A961007CF83D /* CollectionCell.xib in Resources */,
+				E5848F012041A79F007CF83D /* Info.plist in Resources */,
+				E5848F192041A961007CF83D /* CardCollectionCell.xib in Resources */,
+				E5848F1D2041A961007CF83D /* UserCardViewController.xib in Resources */,
+				E598F32B20408CE000FE27AD /* LaunchScreen.storyboard in Resources */,
+				E57048CE2042AC2400422C08 /* PLAlertViewCenterController.xib in Resources */,
+				E57048D92042B2E300422C08 /* DateTimeTableViewCell.xib in Resources */,
+				E57048D52042B23C00422C08 /* TextFieldWithTitleTableViewCell.xib in Resources */,
+				E5848F162041A961007CF83D /* HeaderView.xib in Resources */,
+				E57048C72042ABA700422C08 /* tabbar_camera_normal@3x.png in Resources */,
+				E57048C62042ABA700422C08 /* tabbar_camera_normal@2x.png in Resources */,
+				E598F32820408CE000FE27AD /* Assets.xcassets in Resources */,
+				E57048C52042ABA700422C08 /* tabbar_camera_normal.png in Resources */,
+				E598F32620408CE000FE27AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E598F31920408CE000FE27AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5848F1B2041A961007CF83D /* UserCardPresentAnimationController.swift in Sources */,
+				E57048D02042B02200422C08 /* CreateActivityViewController.swift in Sources */,
+				E57048BD2042802600422C08 /* MainTabViewController.swift in Sources */,
+				E5848F172041A961007CF83D /* MainGarlandViewController.swift in Sources */,
+				E5848F182041A961007CF83D /* CardCollectionCell.swift in Sources */,
+				E5848F002041A79F007CF83D /* GarlandViewController.swift in Sources */,
+				E5848F152041A961007CF83D /* HeaderView.swift in Sources */,
+				E57048D82042B2E300422C08 /* DateTimeTableViewCell.swift in Sources */,
+				E5848EFF2041A79F007CF83D /* GarlandPresentAnimationController.swift in Sources */,
+				E598F32320408CE000FE27AD /* ViewController.swift in Sources */,
+				E5848F132041A961007CF83D /* CollectionCell.swift in Sources */,
+				E5848F042041A937007CF83D /* UIView.swift in Sources */,
+				E5848F1A2041A961007CF83D /* UserCardDismissAnimationController.swift in Sources */,
+				E57048BB20427B5C00422C08 /* ShareMethod.swift in Sources */,
+				E5848EFE2041A79F007CF83D /* GarlandConfig.swift in Sources */,
+				E5848EFD2041A79F007CF83D /* GarlandCollection.swift in Sources */,
+				E598F32120408CE000FE27AD /* AppDelegate.swift in Sources */,
+				E57048CC2042AC2400422C08 /* CustomAlertViewTransitioner.swift in Sources */,
+				E5848F1C2041A961007CF83D /* UserCardViewController.swift in Sources */,
+				E57048D42042B23C00422C08 /* TextFieldWithTitleTableViewCell.swift in Sources */,
+				E57048CD2042AC2400422C08 /* PLAlertViewCenterController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E598F32420408CE000FE27AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E598F32520408CE000FE27AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E598F32920408CE000FE27AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E598F32A20408CE000FE27AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E598F32D20408CE000FE27AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E598F32E20408CE000FE27AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E598F33020408CE000FE27AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QAS5EJPC9;
+				INFOPLIST_FILE = FineLucky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = polo.FineLucky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E598F33120408CE000FE27AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QAS5EJPC9;
+				INFOPLIST_FILE = FineLucky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = polo.FineLucky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E598F31820408CE000FE27AD /* Build configuration list for PBXProject "FineLucky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E598F32D20408CE000FE27AD /* Debug */,
+				E598F32E20408CE000FE27AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E598F32F20408CE000FE27AD /* Build configuration list for PBXNativeTarget "FineLucky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E598F33020408CE000FE27AD /* Debug */,
+				E598F33120408CE000FE27AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E598F31520408CE000FE27AD /* Project object */;
+}

@@ -21,21 +21,28 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoo-qJ-Pnr">
-                        <rect key="frame" x="16" y="24" width="60" height="25"/>
+                        <rect key="frame" x="16" y="24" width="80" height="25"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="25" id="2CZ-Pr-akP"/>
-                            <constraint firstAttribute="width" constant="60" id="xCK-ak-Qre"/>
+                            <constraint firstAttribute="width" constant="80" id="xCK-ak-Qre"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B0e-v6-AL9">
-                        <rect key="frame" x="84" y="8" width="226" height="56.5"/>
+                        <rect key="frame" x="104" y="8" width="206" height="56.5"/>
                         <nil key="textColor"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits"/>
                     </textField>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VPn-6P-dvm">
+                        <rect key="frame" x="104" y="63.5" width="206" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="u48-QC-GIN"/>
+                        </constraints>
+                    </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2x-RE-paz">
                         <rect key="frame" x="16" y="69.5" width="294" height="20"/>
                         <constraints>
@@ -55,6 +62,9 @@
                     <constraint firstItem="B0e-v6-AL9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Mwy-Vv-nbD"/>
                     <constraint firstItem="uoo-qJ-Pnr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Py0-of-NQW"/>
                     <constraint firstItem="w2x-RE-paz" firstAttribute="leading" secondItem="uoo-qJ-Pnr" secondAttribute="leading" id="WdF-0j-clf"/>
+                    <constraint firstItem="VPn-6P-dvm" firstAttribute="leading" secondItem="B0e-v6-AL9" secondAttribute="leading" id="ZfH-v9-M8M"/>
+                    <constraint firstItem="VPn-6P-dvm" firstAttribute="trailing" secondItem="B0e-v6-AL9" secondAttribute="trailing" id="kH6-bu-V1S"/>
+                    <constraint firstItem="VPn-6P-dvm" firstAttribute="bottom" secondItem="B0e-v6-AL9" secondAttribute="bottom" id="pl9-cl-2Ue"/>
                     <constraint firstItem="w2x-RE-paz" firstAttribute="trailing" secondItem="B0e-v6-AL9" secondAttribute="trailing" id="xUl-J0-PbJ"/>
                 </constraints>
             </tableViewCellContentView>

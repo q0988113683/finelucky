@@ -20,6 +20,9 @@
 		E57048D52042B23C00422C08 /* TextFieldWithTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57048D32042B23C00422C08 /* TextFieldWithTitleTableViewCell.xib */; };
 		E57048D82042B2E300422C08 /* DateTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57048D62042B2E300422C08 /* DateTimeTableViewCell.swift */; };
 		E57048D92042B2E300422C08 /* DateTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57048D72042B2E300422C08 /* DateTimeTableViewCell.xib */; };
+		E57048DC2043744900422C08 /* DatePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57048DA2043744900422C08 /* DatePickerTableViewCell.xib */; };
+		E57048DD2043744900422C08 /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57048DB2043744900422C08 /* DatePickerTableViewCell.swift */; };
+		E57048E0204378D800422C08 /* FActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57048DF204378D800422C08 /* FActivityViewModel.swift */; };
 		E5848EFD2041A79F007CF83D /* GarlandCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848EF72041A79F007CF83D /* GarlandCollection.swift */; };
 		E5848EFE2041A79F007CF83D /* GarlandConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848EF82041A79F007CF83D /* GarlandConfig.swift */; };
 		E5848EFF2041A79F007CF83D /* GarlandPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5848EF92041A79F007CF83D /* GarlandPresentAnimationController.swift */; };
@@ -58,6 +61,9 @@
 		E57048D32042B23C00422C08 /* TextFieldWithTitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldWithTitleTableViewCell.xib; sourceTree = "<group>"; };
 		E57048D62042B2E300422C08 /* DateTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeTableViewCell.swift; sourceTree = "<group>"; };
 		E57048D72042B2E300422C08 /* DateTimeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateTimeTableViewCell.xib; sourceTree = "<group>"; };
+		E57048DA2043744900422C08 /* DatePickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerTableViewCell.xib; sourceTree = "<group>"; };
+		E57048DB2043744900422C08 /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
+		E57048DF204378D800422C08 /* FActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FActivityViewModel.swift; sourceTree = "<group>"; };
 		E5848EF72041A79F007CF83D /* GarlandCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarlandCollection.swift; sourceTree = "<group>"; };
 		E5848EF82041A79F007CF83D /* GarlandConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarlandConfig.swift; sourceTree = "<group>"; };
 		E5848EF92041A79F007CF83D /* GarlandPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarlandPresentAnimationController.swift; sourceTree = "<group>"; };
@@ -128,12 +134,22 @@
 		E57048D12042B20900422C08 /* tableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				E57048DB2043744900422C08 /* DatePickerTableViewCell.swift */,
+				E57048DA2043744900422C08 /* DatePickerTableViewCell.xib */,
 				E57048D22042B23C00422C08 /* TextFieldWithTitleTableViewCell.swift */,
 				E57048D32042B23C00422C08 /* TextFieldWithTitleTableViewCell.xib */,
 				E57048D62042B2E300422C08 /* DateTimeTableViewCell.swift */,
 				E57048D72042B2E300422C08 /* DateTimeTableViewCell.xib */,
 			);
 			path = tableViewCell;
+			sourceTree = "<group>";
+		};
+		E57048DE204378B800422C08 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E57048DF204378D800422C08 /* FActivityViewModel.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		E5848EF62041A79E007CF83D /* garland-view */ = {
@@ -221,6 +237,7 @@
 		E598F31F20408CE000FE27AD /* FineLucky */ = {
 			isa = PBXGroup;
 			children = (
+				E57048DE204378B800422C08 /* model */,
 				E57048C02042AA0A00422C08 /* tab2 */,
 				E5848F1E2041A9EB007CF83D /* tool */,
 				E5848F052041A961007CF83D /* tab1 */,
@@ -299,6 +316,7 @@
 				E5848F012041A79F007CF83D /* Info.plist in Resources */,
 				E5848F192041A961007CF83D /* CardCollectionCell.xib in Resources */,
 				E5848F1D2041A961007CF83D /* UserCardViewController.xib in Resources */,
+				E57048DC2043744900422C08 /* DatePickerTableViewCell.xib in Resources */,
 				E598F32B20408CE000FE27AD /* LaunchScreen.storyboard in Resources */,
 				E57048CE2042AC2400422C08 /* PLAlertViewCenterController.xib in Resources */,
 				E57048D92042B2E300422C08 /* DateTimeTableViewCell.xib in Resources */,
@@ -322,6 +340,7 @@
 				E5848F1B2041A961007CF83D /* UserCardPresentAnimationController.swift in Sources */,
 				E57048D02042B02200422C08 /* CreateActivityViewController.swift in Sources */,
 				E57048BD2042802600422C08 /* MainTabViewController.swift in Sources */,
+				E57048DD2043744900422C08 /* DatePickerTableViewCell.swift in Sources */,
 				E5848F172041A961007CF83D /* MainGarlandViewController.swift in Sources */,
 				E5848F182041A961007CF83D /* CardCollectionCell.swift in Sources */,
 				E5848F002041A79F007CF83D /* GarlandViewController.swift in Sources */,
@@ -335,6 +354,7 @@
 				E57048BB20427B5C00422C08 /* ShareMethod.swift in Sources */,
 				E5848EFE2041A79F007CF83D /* GarlandConfig.swift in Sources */,
 				E5848EFD2041A79F007CF83D /* GarlandCollection.swift in Sources */,
+				E57048E0204378D800422C08 /* FActivityViewModel.swift in Sources */,
 				E598F32120408CE000FE27AD /* AppDelegate.swift in Sources */,
 				E57048CC2042AC2400422C08 /* CustomAlertViewTransitioner.swift in Sources */,
 				E5848F1C2041A961007CF83D /* UserCardViewController.swift in Sources */,
